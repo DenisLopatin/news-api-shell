@@ -19,7 +19,7 @@ you will be working with:
 
     // you must pass all required parameters
     // if you don't need some field, pass empty string
-    const validConfigForEverething = { 
+    const validConfigForEverything = { 
         q: 'movies', 
         sources: 'bbc-news', 
         domains: 'www.bbc.co.uk' 
