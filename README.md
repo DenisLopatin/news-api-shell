@@ -1,8 +1,8 @@
-##News API Shell
+## News API Shell
 
 _Shell for the [News API service](https://newsapi.org/)_
 
-###Getting start
+### Getting start
 
 You have to import the news factory and pass your API key to it:
 
