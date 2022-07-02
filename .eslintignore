@@ -1,2 +1,6 @@
+/API_KEY
+/development
+/tests
 babel.config.js
 jest.config.js
+webpack.config.js

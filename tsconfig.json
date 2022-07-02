@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "UMD",
-    "lib": ["dom"],
+    "target": "ES2016",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["dom", "es2015.iterable"],
     "baseUrl": "./src",
     "rootDir": ".",
-    "outDir": "provide",
+    "outDir": "dist",
 
     "strict": true,
     "allowJs": true,
     "checkJs": true,
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true,
     "alwaysStrict": true,
     "skipLibCheck": true,
     "noUnusedLocals": true,

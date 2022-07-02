@@ -1,10 +1,13 @@
 /node_modules/
 /src
 /tests
+/API_KEY
 .idea
 .eslintignore
 .eslintrc
+.gitignore
 babel.config.js
 jest.config.js
 package-lock.json
 tsconfig.json
+webpack.config.js

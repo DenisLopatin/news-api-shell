@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     parserOptions: {
-        "project": './tsconfig.json'
+        'project': 'tsconfig.json'
     },
     parser: '@typescript-eslint/parser',
     plugins: [
@@ -9,9 +9,9 @@ module.exports = {
     ],
     extends: [
         'eslint:recommended',
-        "plugin:@typescript-eslint/strict",
+        'plugin:@typescript-eslint/strict',
         'plugin:@typescript-eslint/recommended',
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
     ],
     rules: {
         'max-lines-per-function': ['error', 20],
@@ -45,42 +45,41 @@ module.exports = {
 
         'quotes': ['error', 'single'],
         'require-await': 'error',
-        'default-case': 'error',
         'dot-notation': 'error',
         'vars-on-top': 'error',
         'camelcase': 'error',
         'eqeqeq': 'error',
         'yoda': 'error',
 
-        'array-bracket-spacing': ["error", "always", { "singleValue": false, "objectsInArrays": false }],
-        'newline-per-chained-call': ["error", { "ignoreChainWithDepth": 2 }],
-        'no-multiple-empty-lines': ["error", { "max": 1, "maxEOF": 0 }],
-        'space-before-function-paren': ["error", "never"],
-        'key-spacing': ["error", { "afterColon": true }],
-        'comma-dangle': ["error", "always-multiline"],
-        'object-curly-spacing': ["error", "always"],
-        'no-whitespace-before-property': "error",
-        'func-call-spacing': ["error", "never"],
-        'max-len': ["error", { "code": 80 }],
-        'space-before-blocks': "error",
-        'no-multi-spaces': "error",
+        'array-bracket-spacing': ['error', 'always', { 'singleValue': false, 'objectsInArrays': false }],
+        'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 2 }],
+        'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0 }],
+        'space-before-function-paren': ['error', 'never'],
+        'key-spacing': ['error', { 'afterColon': true }],
+        'comma-dangle': ['error', 'always-multiline'],
+        'object-curly-spacing': ['error', 'always'],
+        'indent': ['error', 4, { 'SwitchCase': 1 }],
+        'no-whitespace-before-property': 'error',
+        'func-call-spacing': ['error', 'never'],
+        'max-len': ['error', { 'code': 80 }],
+        'space-before-blocks': 'error',
+        'no-multi-spaces': 'error',
         'comma-spacing': 'error',
-        'arrow-spacing': "error",
+        'arrow-spacing': 'error',
         'block-spacing': 'error',
         'arrow-parens': 'error',
-        "indent": ["error", 4],
-        'new-parens': "error",
-        'semi': "error",
+        'new-parens': 'error',
+        'semi': 'error',
         'keyword-spacing': [
-            "error",
+            'error',
             {
-                "overrides":
+                'overrides':
                     {
-                        "if": { "after": false },
-                        "for": { "after": false },
-                        "while": { "after": false },
-                        "static": { "after": false },
-                        "as": { "after": false }
+                        'if': { 'after': true },
+                        'for': { 'after': false },
+                        'while': { 'after': false },
+                        'static': { 'after': false },
+                        'as': { 'after': false }
                     }
             }
         ],
